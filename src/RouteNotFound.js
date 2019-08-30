@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {navigate} from '@reach/router'
-import {authenticate} from './API';
+
 
 class  RouteNotFound extends Component {
 

@@ -44,7 +44,7 @@ class RouteSingleType extends Component {
             var projectProps = {
               ...project,
               key: project.id,
-              // refreshData:this.routeGetType(type.id) // to refresh and load the type, otherwise nothing will show
+              // refreshData:this.routeGetType(type.id) // to refresh and load the type, otherwise nothing will show, but you dont want to refresh and load immediately 
               refreshData:() =>this.routeGetType(type.id) 
     
             };
